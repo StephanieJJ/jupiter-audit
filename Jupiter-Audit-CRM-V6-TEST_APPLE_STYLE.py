@@ -31,8 +31,6 @@ from plotly.subplots import make_subplots
 import io
 import os
 import base64
-from reportlab.lib.pagesizes import letter, A4
-from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, PageBreak
